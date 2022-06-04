@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->integer('is complete');
-            $table->timestamps();
+            // $table->timestamps();
         });
     }
 
